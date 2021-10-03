@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArZHa</title>
+    <!-- CDN Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" />
+    <!-- CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custome CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: #181a1b;
+      }
+      .navbar {
+        height: 100%;
+        position: fixed;
+        display: block;
+        background-color: #11101d;
+      }
+      li,
+      nav a {
+        margin-top: 6px;
+        border-radius: 23px;
+      }
+      li:hover,
+      nav a:hover {
+        background: cornsilk;
+      }
+      i {
+        font-size: 23px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <nav class="navbar navbar-expand flex-column">
+      <a href="index.html" class="navbar-nav nav-link flex-column mt-5 w-100" data-bs-toggle="tooltip" title="Dashboard">
+        <div class="pl-3"><i class="bx bx-grid-alt"></i></div>
+      </a>
+      <ul class="navbar-nav flex-column mt-5 w-100">
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Profile">
+          <a href="profile.html" class="nav-link pl-3"><i class="bx bx-user"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Messages">
+          <a href="messages.html" class="nav-link pl-3"><i class="bx bx-chat"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Schedule">
+          <a href="schedule.html" class="nav-link pl-3"><i class="bx bx-pie-chart-alt-2"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Files">
+          <a href="projects.html" class="nav-link pl-3"><i class="bx bx-folder"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Form -->
+    <form class="mx-auto" style="width: 600px; padding-top: 6%">
+      <h1 class="text-center font-weight-bold text-primary" style="padding-bottom: 4%">Contact</h1>
+      <div class="mb-3">
+        <input type="name" style="border: 0" class="form-control bg-primary text-dark" aria-describedby="emailHelp" placeholder="Your name" />
+      </div>
+      <div class="mb-3">
+        <input type="email" style="border: 0" class="form-control bg-primary text-dark" aria-describedby="emailHelp" placeholder="Your email" />
+      </div>
+      <div class="mb-3">
+        <input type="number" style="border: 0" class="form-control bg-primary text-dark" aria-describedby="emailHelp" placeholder="Your phone" />
+      </div>
+      <div class="mb-3">
+        <textarea class="contact-form-text form-control bg-primary text-dark" placeholder="Your message" rows="4" cols="30" style="border: 0"></textarea>
+      </div>
+      <div class="text-center" style="padding: 23px">
+        <button type="submit" class="btn rounded-pill text-primary" style="padding: 23px; background-color: #11101d">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

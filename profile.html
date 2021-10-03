@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArZHa</title>
+    <!-- CDN Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" />
+    <!-- CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custome CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: #181a1b;
+      }
+      .navbar {
+        height: 100%;
+        position: fixed;
+        display: block;
+        background-color: #11101d;
+      }
+      li,
+      nav a {
+        margin-top: 6px;
+        border-radius: 23px;
+      }
+      li:hover,
+      nav a:hover {
+        background: cornsilk;
+      }
+      i {
+        font-size: 23px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <nav class="navbar navbar-expand flex-column">
+      <a href="index.html" class="navbar-nav nav-link flex-column mt-5 w-100" data-bs-toggle="tooltip" title="Dashboard">
+        <div class="pl-3"><i class="bx bx-grid-alt"></i></div>
+      </a>
+      <ul class="navbar-nav flex-column mt-5 w-100">
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Profile">
+          <a href="profile.html" class="nav-link pl-3"><i class="bx bx-user"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Messages">
+          <a href="messages.html" class="nav-link pl-3"><i class="bx bx-chat"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Schedule">
+          <a href="schedule.html" class="nav-link pl-3"><i class="bx bx-pie-chart-alt-2"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Files">
+          <a href="projects.html" class="nav-link pl-3"><i class="bx bx-folder"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Profile -->
+    <div class="mx-auto" style="width: 400px; padding-top: 98px">
+      <div class="text-center">
+        <div class="card-body bg-primary rounded-top">
+          <section class="jumbotron text-center" style="padding-top: 36px">
+            <img src="1.jpg" width="100" class="img-thumbnail rounded-circle" />
+            <p class="font-weight-bold text-uppercase fs-6" style="padding-top: 16px; font-size: 20px; color: #11101d">Arianto Zaki Hamdalah</p>
+            <p style="padding-bottom: 13px; color: #11101d">Unemployment</p>
+          </section>
+        </div>
+      </div>
+
+      <div class="text-center rounded-bottom" style="background-color: #11101d">
+        <div class="card-body" style="padding: 58px 20px">
+          <div class="text-secondary" style="display: flex">
+            <div style="font-size: 13px">
+              <span class="text-primary">1 | D4 IT-A</span>
+              Kelas
+            </div>
+            <div class="border" style="margin: 0 23px; opacity: 0.4"></div>
+            <div style="font-size: 13px">
+              <span class="text-primary">3121600023</span>
+              NRP
+            </div>
+            <div class="border" style="margin: 0 23px; opacity: 0.4"></div>
+            <div style="font-size: 13px">
+              <span class="text-primary">SMKN 1 UDANAWU</span>
+              Asal Sekolah
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

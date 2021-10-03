@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArZHa</title>
+    <!-- CDN Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" />
+    <!-- CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- CDN AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custome CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: #181a1b;
+      }
+      .navbar {
+        height: 100%;
+        position: fixed;
+        display: block;
+        background-color: #11101d;
+      }
+      li,
+      nav a {
+        margin-top: 6px;
+        border-radius: 23px;
+      }
+      li:hover,
+      nav a:hover {
+        background: cornsilk;
+      }
+      i {
+        font-size: 23px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <nav class="navbar navbar-expand flex-column">
+      <a href="index.html" class="navbar-nav nav-link flex-column mt-5 w-100" data-bs-toggle="tooltip" title="Dashboard">
+        <div class="pl-3"><i class="bx bx-grid-alt"></i></div>
+      </a>
+      <ul class="navbar-nav flex-column mt-5 w-100">
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Profile">
+          <a href="profile.html" class="nav-link pl-3"><i class="bx bx-user"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Messages">
+          <a href="messages.html" class="nav-link pl-3"><i class="bx bx-chat"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Schedule">
+          <a href="schedule.html" class="nav-link pl-3"><i class="bx bx-pie-chart-alt-2"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Files">
+          <a href="projects.html" class="nav-link pl-3"><i class="bx bx-folder"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Container -->
+    <div class="text-center text-uppercase text-primary" style="padding-top: 181px">
+      <p class="display-3 font-weight-bold" data-aos="zoom-in-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="350" data-aos-duration="2000" style="letter-spacing: 13px">welcome in</p>
+      <p class="display-6" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="1950" data-aos-duration="2000" style="letter-spacing: 4px">dashboard</p>
+    </div>
+    <!-- CDN AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

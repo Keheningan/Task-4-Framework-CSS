@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArZHa</title>
+    <!-- CDN Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" />
+    <!-- CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custome CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: #181a1b;
+      }
+      .navbar {
+        height: 100%;
+        position: fixed;
+        display: block;
+        background-color: #11101d;
+      }
+      li,
+      nav a {
+        margin-top: 6px;
+        border-radius: 23px;
+      }
+      li:hover,
+      nav a:hover {
+        background: cornsilk;
+      }
+      i {
+        font-size: 23px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <nav class="navbar navbar-expand flex-column">
+      <a href="index.html" class="navbar-nav nav-link flex-column mt-5 w-100" data-bs-toggle="tooltip" title="Dashboard">
+        <div class="pl-3"><i class="bx bx-grid-alt"></i></div>
+      </a>
+      <ul class="navbar-nav flex-column mt-5 w-100">
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Profile">
+          <a href="profile.html" class="nav-link pl-3"><i class="bx bx-user"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Messages">
+          <a href="messages.html" class="nav-link pl-3"><i class="bx bx-chat"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Schedule">
+          <a href="schedule.html" class="nav-link pl-3"><i class="bx bx-pie-chart-alt-2"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Files">
+          <a href="projects.html" class="nav-link pl-3"><i class="bx bx-folder"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Schedule -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h1 class="font-weight-bold text-primary" style="padding-top: 36px">Course Schedule</h1>
+            <div class="border mx-auto" style="width: 123px; margin: 31px; opacity: 0.4;"></div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly text-center ">
+          <div class="col-md-5 mb-4">
+            <div class="card bg-dark" style="border: 0">
+              <div class="card-body text-secondary">
+                <p class="card-text text-primary font-weight-bold">MONDAY</p>
+                <div class="border mx-auto" style="width: 123px; margin: 18px 0 48px 0;opacity: 0.4;"></div>
+                <p class="card-text">Praktikum Konsep Pemrograman | 08:00 - 10:30</p>Dasar Sistem Komputer | 10:30 - 12:10
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="card bg-dark" style="border: 0">
+              <div class="card-body text-secondary">
+                <p class="card-text text-primary font-weight-bold">TUESDAY</p>
+                <div class="border mx-auto" style="width: 123px; margin: 18px 0 48px 0;opacity: 0.4;"></div>
+                <p class="card-text">Ketrampilan Komunikasi | 08:00 - 09:40</p>Logika dan Algoritma | 10:30 - 12:10
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="card bg-dark" style="border: 0">
+              <div class="card-body text-secondary">
+                <p class="card-text text-primary font-weight-bold">WEDNESDAY</p>
+                <div class="border mx-auto" style="width: 123px; margin: 18px 0 48px 0;opacity: 0.4;"></div>
+                <div>Konsep Teknologi Informasi | 08:00 - 09:40
+                <p class="card-text">Matematika 1 | 09:40 - 12:10</p>Pancasila dan Kewarganegaraan | 14:00 - 15:40
+              </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="card bg-dark" style="border: 0">
+              <div class="card-body text-secondary">
+                <p class="card-text text-primary font-weight-bold">THURSDAY</p>
+                <div class="border mx-auto" style="width: 123px; margin: 18px 0 48px 0;opacity: 0.4;"></div>
+                <p class="card-text">Praktikum Konsep Pemrograman | 08:00 - 10:20</p>Konsep Pemrograman | 10:30 - 12:10
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-5 mb-4">
+            <div class="card bg-dark" style="border: 0">
+              <div class="card-body text-secondary">
+                <p class="card-text text-primary font-weight-bold">FRIDAY</p>
+                <div class="border mx-auto" style="width: 123px; margin: 18px 0 48px 0;opacity: 0.4;"></div>
+                Workshop Desain Web | 08:00 - 11:20
+              </div>
+              <p></p>
+              <p></p>
+            </div>
+          </div>
+  </body>
+</html>

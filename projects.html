@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArZHa</title>
+    <!-- CDN Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" />
+    <!-- CDN Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custome CSS -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+      body {
+        background: #181a1b;
+      }
+      .navbar {
+        height: 100%;
+        position: fixed;
+        display: block;
+        background-color: #11101d;
+      }
+      li,
+      nav a {
+        margin-top: 6px;
+        border-radius: 23px;
+      }
+      li:hover,
+      nav a:hover {
+        background: cornsilk;
+      }
+      i {
+        font-size: 23px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <nav class="navbar navbar-expand flex-column">
+      <a href="index.html" class="navbar-nav nav-link flex-column mt-5 w-100" data-bs-toggle="tooltip" title="Dashboard">
+        <div class="pl-3"><i class="bx bx-grid-alt"></i></div>
+      </a>
+      <ul class="navbar-nav flex-column mt-5 w-100">
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Profile">
+          <a href="profile.html" class="nav-link pl-3"><i class="bx bx-user"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Messages">
+          <a href="messages.html" class="nav-link pl-3"><i class="bx bx-chat"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Schedule">
+          <a href="schedule.html" class="nav-link pl-3"><i class="bx bx-pie-chart-alt-2"></i></a>
+        </li>
+        <li class="nav-item w-100" data-bs-toggle="tooltip" title="Files">
+          <a href="projects.html" class="nav-link pl-3"><i class="bx bx-folder"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col" style="color: ghostwhite">
+            <h1 class="text-primary font-weight-bold">Projects</h1>
+            <div class="border mx-auto" style="width: 123px; margin: 31px; opacity: 0.4"></div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly text-center">
+          <div class="col-md-5 mb-3">
+            <div class="card" style="background-color: #11101d; align-items: center; padding: 23px">
+              <img src="2.jpg" class="card-img-top rounded-circle" style="width: 98px" />
+              <div class="card-body">
+                <p class="card-text font-weight-bold text-primary" style="font-size: 15px">WINDOWS 10 ROG-E | ULTIMATE GAMING | X64</p>
+                <p class="text-secondary" style="font-size: 11px">Project Windows Gaming based ASUS ROG Software</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <div class="card" style="background-color: #11101d; align-items: center; padding: 23px">
+              <img src="3.jpg" class="card-img-top rounded-circle" style="width: 98px" />
+              <div class="card-body">
+                <p class="card-text font-weight-bold text-primary" style="font-size: 15px">WINDOWS 10 SE | PANORAMA SWEET | X86 & X64</p>
+                <p class="text-secondary" style="font-size: 11px">Most stabil & lightweight. For daily use, casual game & others.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
